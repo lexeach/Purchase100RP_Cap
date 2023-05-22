@@ -350,7 +350,7 @@ const userde = async (info ) => {
 
            <div style={{width :"90%"}} className="input-area d-flex flex-column flex-md-row">
                 <div className="input-text">
-                  <input value={ tosend }  onChange={handleInputChange }  disabled placeholder="Amount" />
+                  <input value="Shop ID"{ tosend }  onChange={handleInputChange }  disabled placeholder="Shop ID" />
                 
                 </div>
                
