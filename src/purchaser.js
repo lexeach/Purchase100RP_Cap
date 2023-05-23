@@ -433,7 +433,7 @@ const userde = async (info ) => {
   <b>   Received Rewards </b> 
   </td>
   <td>
-  <b>  {rReward}</b> 
+  <b>  {rReward/100}</b> 
   </td>
 
   
@@ -445,7 +445,7 @@ const userde = async (info ) => {
     <b>Total Rewards</b> 
    </td>
    <td>
-   <b>  {tReward} </b> 
+   <b>  {tReward/100} </b> 
    </td>
  
    
