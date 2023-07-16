@@ -39,6 +39,18 @@ const [tReward, serTReward] = React.useState("");
 
 const [event, setEvent] = React.useState([]);
 
+function handleInputChange(event) {
+  
+    setInputValue(event.target.value);
+
+    if(event.target.value > 1000000){
+      alert("More than 1000000 is not allowes")
+      setInputValue(0);
+
+    }
+    
+    
+}
 
 
 function handleInputChange1(event) {
