@@ -9,7 +9,7 @@ function Router() {
     <div>
       <Routes>
      {/* <Route path="/" element={<App />} /> */}
-       <Route path="/" element={<Purchaser />} /> 
+      {/* <Route path="/" element={<Purchaser />} /> */} 
        <Route path="/QR" element={<QR />} />
         
       </Routes>
