@@ -8,8 +8,8 @@ function Router() {
   return (
     <div>
       <Routes>
-    {/* <Route path="/" element={<App />} /> */}
-       <Route path="/" element={<Purchaser />} />
+       <Route path="/" element={<App />} /> 
+      {/* <Route path="/" element={<Purchaser />} /> */}
        <Route path="/QR" element={<QR />} />
         
       </Routes>
