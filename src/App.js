@@ -434,7 +434,7 @@ console.log("start");
 
   <tr  >
     <td>Income</td>
-    <td> {users.income}</td>
+    <td> {users.income/100}</td>
   
   </tr>
 
